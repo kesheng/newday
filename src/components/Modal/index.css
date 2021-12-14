@@ -1,0 +1,44 @@
+[role="dialog"] {
+  box-sizing: border-box;
+  padding: 15px;
+  border: 1px solid #000;
+  background-color: #fff;
+  position: absolute;
+  top: 2rem;
+  left: 50vw;
+  transform: translateX(-50%);
+  min-width: calc(640px - (15px * 2));
+  min-height: auto;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.12), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.dialogForm {
+  margin: 15px;
+}
+
+.dialogFormItem {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.dialogLabel {
+  text-align: center;
+}
+
+.dialogForm .labelText {
+  padding-right: 0.5em;
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+}
+
+.dialogForm input {
+  width: 60%;
+}
+
+.dialogForm .labelInfo {
+  font-size: 12px;
+  padding-right: 0.5em;
+  width: 30%;
+  text-align: right;
+}
